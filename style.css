@@ -1,0 +1,56 @@
+html {
+  font-size: 24px;
+  line-height: 2;
+  background-color: #1b1b2f;
+}
+form * {
+  font-family: inherit;
+  font-size: inherit;
+}
+img {
+  width : 250px;
+  height:250px;
+  //max-width : auto;
+
+}
+.nav{
+  background-color :#1f4068;
+  padding :10px;
+  padding-left:10%;
+}
+figure{
+  margin: 10px;
+}
+.container{
+  padding: 5%;
+}
+
+input[type=text] {
+width: 130px;
+border: none;
+font-size: 16px;
+background-color: white;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+
+}
+input[type=text]:focus {
+width : 75%;
+border : none;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#btnSearch {
+  background-color: #162447;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
